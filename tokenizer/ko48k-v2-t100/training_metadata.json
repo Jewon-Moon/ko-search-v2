@@ -1,0 +1,41 @@
+{
+ "vocab_requested": 48000,
+ "vocab_actual": 48000,
+ "twin_rate": 1.0,
+ "min_frequency": 2,
+ "pre_tokenizer": "Digits(individual) + ByteLevel GPT-2 regex (llama.cpp refact/starcoder)",
+ "base": "Qwen/Qwen3-0.6B",
+ "sources": [
+  [
+   "data/processed/fineweb_general_train.txt",
+   "txt",
+   null
+  ],
+  [
+   "data/search/corpus_v2/local.jsonl",
+   "wiki",
+   120000000
+  ],
+  [
+   "data/processed/mixed/korean_english_mixed.txt",
+   "txt",
+   null
+  ],
+  [
+   "data/processed/structured/json_extra_train.txt",
+   "txt",
+   null
+  ],
+  [
+   "data/processed/structured/structured_train.txt",
+   "txt",
+   null
+  ],
+  [
+   "data/processed/mixed/source_code.txt",
+   "txt",
+   12000000
+  ]
+ ],
+ "wiki_eval_mod": 50
+}

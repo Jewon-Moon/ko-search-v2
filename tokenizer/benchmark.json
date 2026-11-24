@@ -1,0 +1,363 @@
+{
+ "words_scored": 20000,
+ "word_occurrences": 360445,
+ "rows": {
+  "qwen3": {
+   "vocab": 151669,
+   "ko_web tok/100ch": 66.2,
+   "ko_wiki tok/100ch": 71.3,
+   "json_code tok/100ch": 34.7,
+   "consistent": 0.423,
+   "first_same": 0.424,
+   "syll_whole": 0.225,
+   "roundtrip": true,
+   "examples": {
+    "\"이순신 생년\"": [
+     "\"",
+     "이",
+     "순",
+     "신",
+     " 생",
+     "년",
+     "\""
+    ],
+    " 이순신": [
+     " 이",
+     "순",
+     "신"
+    ],
+    "{\"action\": \"search\", \"query\": \"김치찌개\"}": [
+     "{\"",
+     "action",
+     "\":",
+     " \"",
+     "search",
+     "\",",
+     " \"",
+     "query",
+     "\":",
+     " \"",
+     "김",
+     "치",
+     "찌",
+     "개",
+     "\"}"
+    ]
+   }
+  },
+  "ko32k": {
+   "vocab": 32000,
+   "ko_web tok/100ch": 43.3,
+   "ko_wiki tok/100ch": 47.2,
+   "json_code tok/100ch": 47.8,
+   "consistent": 0.477,
+   "first_same": 0.477,
+   "syll_whole": 0.098,
+   "roundtrip": true,
+   "examples": {
+    "\"이순신 생년\"": [
+     "\"이",
+     "순",
+     "신",
+     " 생",
+     "년",
+     "\""
+    ],
+    " 이순신": [
+     " 이순",
+     "신"
+    ],
+    "{\"action\": \"search\", \"query\": \"김치찌개\"}": [
+     "{\"",
+     "action",
+     "\":",
+     " \"",
+     "search",
+     "\",",
+     " \"",
+     "query",
+     "\":",
+     " \"",
+     "김치",
+     "찌",
+     "개",
+     "\"}"
+    ]
+   }
+  },
+  "ko32k-v2-t10": {
+   "vocab": 32000,
+   "ko_web tok/100ch": 43.5,
+   "ko_wiki tok/100ch": 46.5,
+   "json_code tok/100ch": 48.2,
+   "consistent": 0.685,
+   "first_same": 0.685,
+   "syll_whole": 0.102,
+   "roundtrip": true,
+   "examples": {
+    "\"이순신 생년\"": [
+     "\"",
+     "이",
+     "순",
+     "신",
+     " 생",
+     "년",
+     "\""
+    ],
+    " 이순신": [
+     " 이순신"
+    ],
+    "{\"action\": \"search\", \"query\": \"김치찌개\"}": [
+     "{\"",
+     "action",
+     "\":",
+     " \"",
+     "search",
+     "\",",
+     " \"",
+     "query",
+     "\":",
+     " \"",
+     "김",
+     "치",
+     "찌",
+     "개",
+     "\"}"
+    ]
+   }
+  },
+  "ko32k-v2-t30": {
+   "vocab": 32000,
+   "ko_web tok/100ch": 43.9,
+   "ko_wiki tok/100ch": 46.9,
+   "json_code tok/100ch": 48.5,
+   "consistent": 0.828,
+   "first_same": 0.828,
+   "syll_whole": 0.105,
+   "roundtrip": true,
+   "examples": {
+    "\"이순신 생년\"": [
+     "\"",
+     "이순",
+     "신",
+     " 생",
+     "년",
+     "\""
+    ],
+    " 이순신": [
+     " 이순신"
+    ],
+    "{\"action\": \"search\", \"query\": \"김치찌개\"}": [
+     "{\"",
+     "action",
+     "\":",
+     " \"",
+     "search",
+     "\",",
+     " \"",
+     "query",
+     "\":",
+     " \"",
+     "김치",
+     "찌",
+     "개",
+     "\"}"
+    ]
+   }
+  },
+  "ko32k-v2-t50": {
+   "vocab": 32000,
+   "ko_web tok/100ch": 44.3,
+   "ko_wiki tok/100ch": 47.3,
+   "json_code tok/100ch": 48.7,
+   "consistent": 0.901,
+   "first_same": 0.901,
+   "syll_whole": 0.107,
+   "roundtrip": true,
+   "examples": {
+    "\"이순신 생년\"": [
+     "\"",
+     "이순",
+     "신",
+     " 생",
+     "년",
+     "\""
+    ],
+    " 이순신": [
+     " 이순",
+     "신"
+    ],
+    "{\"action\": \"search\", \"query\": \"김치찌개\"}": [
+     "{\"",
+     "action",
+     "\":",
+     " \"",
+     "search",
+     "\",",
+     " \"",
+     "query",
+     "\":",
+     " \"",
+     "김치",
+     "찌",
+     "개",
+     "\"}"
+    ]
+   }
+  },
+  "ko48k-v2-t10": {
+   "vocab": 48000,
+   "ko_web tok/100ch": 41.5,
+   "ko_wiki tok/100ch": 44.1,
+   "json_code tok/100ch": 45.9,
+   "consistent": 0.726,
+   "first_same": 0.726,
+   "syll_whole": 0.112,
+   "roundtrip": true,
+   "examples": {
+    "\"이순신 생년\"": [
+     "\"",
+     "이순",
+     "신",
+     " 생",
+     "년",
+     "\""
+    ],
+    " 이순신": [
+     " 이순신"
+    ],
+    "{\"action\": \"search\", \"query\": \"김치찌개\"}": [
+     "{\"",
+     "action",
+     "\":",
+     " \"",
+     "search",
+     "\",",
+     " \"",
+     "query",
+     "\":",
+     " \"",
+     "김치",
+     "찌",
+     "개",
+     "\"}"
+    ]
+   }
+  },
+  "ko48k-v2-t30": {
+   "vocab": 48000,
+   "ko_web tok/100ch": 41.8,
+   "ko_wiki tok/100ch": 44.5,
+   "json_code tok/100ch": 46.2,
+   "consistent": 0.858,
+   "first_same": 0.858,
+   "syll_whole": 0.116,
+   "roundtrip": true,
+   "examples": {
+    "\"이순신 생년\"": [
+     "\"",
+     "이순",
+     "신",
+     " 생",
+     "년",
+     "\""
+    ],
+    " 이순신": [
+     " 이순신"
+    ],
+    "{\"action\": \"search\", \"query\": \"김치찌개\"}": [
+     "{\"",
+     "action",
+     "\":",
+     " \"",
+     "search",
+     "\",",
+     " \"",
+     "query",
+     "\":",
+     " \"",
+     "김치",
+     "찌",
+     "개",
+     "\"}"
+    ]
+   }
+  },
+  "ko48k-v2-t50": {
+   "vocab": 48000,
+   "ko_web tok/100ch": 42.2,
+   "ko_wiki tok/100ch": 44.9,
+   "json_code tok/100ch": 46.4,
+   "consistent": 0.918,
+   "first_same": 0.918,
+   "syll_whole": 0.117,
+   "roundtrip": true,
+   "examples": {
+    "\"이순신 생년\"": [
+     "\"",
+     "이순신",
+     " 생",
+     "년",
+     "\""
+    ],
+    " 이순신": [
+     " 이순신"
+    ],
+    "{\"action\": \"search\", \"query\": \"김치찌개\"}": [
+     "{\"",
+     "action",
+     "\":",
+     " \"",
+     "search",
+     "\",",
+     " \"",
+     "query",
+     "\":",
+     " \"",
+     "김치",
+     "찌",
+     "개",
+     "\"}"
+    ]
+   }
+  },
+  "ko48k-v2-t100": {
+   "vocab": 48000,
+   "ko_web tok/100ch": 42.8,
+   "ko_wiki tok/100ch": 45.7,
+   "json_code tok/100ch": 46.7,
+   "consistent": 0.968,
+   "first_same": 0.968,
+   "syll_whole": 0.12,
+   "roundtrip": true,
+   "examples": {
+    "\"이순신 생년\"": [
+     "\"",
+     "이순신",
+     " 생",
+     "년",
+     "\""
+    ],
+    " 이순신": [
+     " 이순신"
+    ],
+    "{\"action\": \"search\", \"query\": \"김치찌개\"}": [
+     "{\"",
+     "action",
+     "\":",
+     " \"",
+     "search",
+     "\",",
+     " \"",
+     "query",
+     "\":",
+     " \"",
+     "김치",
+     "찌",
+     "개",
+     "\"}"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# data, checkpoints, predictions and caches are never published (see README)
+data/
+models/
+logs/
+outputs/
+runs/**
+!runs/**/
+!runs/**/*.sh
+*.gguf
+*.safetensors
+*.pt
+*.bin
+*.tar
+*.log
+
+# credentials
+.env
+.env.*
+
+.DS_Store
+
+# working notes (kept locally, not published)
+REPORT_2026-*.md
+vast/MORNING.md

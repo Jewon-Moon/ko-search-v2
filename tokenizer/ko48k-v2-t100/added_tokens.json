@@ -1,0 +1,14 @@
+{
+  "</think>": 47999,
+  "</tool_call>": 47989,
+  "</tool_response>": 47997,
+  "<think>": 47998,
+  "<tool_call>": 47988,
+  "<tool_response>": 47996,
+  "<|file_sep|>": 47995,
+  "<|fim_middle|>": 47991,
+  "<|fim_pad|>": 47993,
+  "<|fim_prefix|>": 47990,
+  "<|fim_suffix|>": 47992,
+  "<|repo_name|>": 47994
+}
